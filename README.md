@@ -5,18 +5,17 @@ Projeto CalculoCDB
 Sumário
 
 
-Visão Geral
+[Visão Geral](visao-geral)
 
-Pré-requisitos
+[Pré-requisitos]()pre-requisitos
 
-Instruções de Deploy no Docker
+[Instruções de Deploy no Docker](instrucoes-de-deploy-no-docker)
 
-Instruções sobre Testes
+[Instruções sobre Testes](instrucoes-sobre-testes)
 
-Abrir no Visual Studio
+[Abrir no Visual Studio](abrir-no-visual-studio)
 
-
-* Visão Geral
+## Visão Geral
 
 
 Esta aplicação é composta por duas partes:
@@ -25,7 +24,7 @@ Backend (API): Construído com .NET 8.
 Frontend (Angular): Uma aplicação Angular que se comunica com a API.
 O projeto foi configurado para rodar tanto localmente quanto em contêineres Docker para facilitar o deploy e a execução.
 
-* Pré-requisitos
+##Pré-requisitos
 
 
 Antes de rodar a aplicação (tanto o backend quanto o frontend), certifique-se de que você tem os seguintes pré-requisitos instalados:
@@ -39,7 +38,7 @@ Node.js: Instale a versão 18 ou superior.
 Angular CLI: Instale globalmente com o comando:
 npm install -g @angular/cli
 
-* Instruções de Deploy no Docker
+## Instruções de Deploy no Docker
 
 
 O deploy da aplicação pode ser feito utilizando Docker Compose para rodar o backend (.NET API) e o frontend (Angular) em contêineres Docker.
@@ -77,8 +76,7 @@ curl --location 'http://localhost:44352/CalculoCDB' \
 --header 'valorInicial: 20000' \
 --header 'meses: 25' \
 --header 'accept: text/plain'
-
-* Instruções sobre Testes
+## Instruções sobre Testes
   
 Backend (API .NET)
 Rodando os Testes Unitários
@@ -96,10 +94,10 @@ ng test
 
 Isso abrirá um navegador e executará os testes, exibindo o resultado no terminal e na janela do navegador.
 
-Abrir no Visual Studio
+## Abrir no Visual Studio
 Passos para abrir o projeto no Visual Studio:
 
-* Abra o Visual Studio 2022.
+Abra o Visual Studio 2022.
 
 Clique em "Abrir um projeto ou solução".
 
