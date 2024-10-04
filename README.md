@@ -114,7 +114,7 @@ curl --location 'http://localhost:44352/CalculoCDB' \
 
 [Clique aqui para acessar Relatório de Cobertura dos Testes](https://edsonpina.github.io/CalculoCDB/)
 
-Backend (API .NET)
+* Backend (API .NET)
 
 Rodando os Testes Unitários
 
@@ -124,8 +124,11 @@ dotnet test
 
 Isso executará todos os testes configurados no projeto de testes da API.
 
-Frontend (Angular)
+
+* Frontend (Angular)
+ 
 Rodando os Testes Unitários
+
 Para rodar os testes unitários do Angular, utilize o seguinte comando:
 
 ng test
