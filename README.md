@@ -9,7 +9,7 @@ Sumário
 
 [Pré-requisitos](#pré-requisitos)
 
-[Instruções de Deploy no Docker](#instrucoes-de-deploy-no-docker)
+[Instruções de Deploy no Docker](#instruções-de-deploy-no-docker)
 
 [Instruções sobre Testes](#instruções-sobre-testes)
 
