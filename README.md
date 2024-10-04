@@ -91,7 +91,7 @@ curl --location 'http://localhost:44352/CalculoCDB' \
 
 ## Instruções sobre Testes
 
-[Clique aqui para acessar Relatório de Cobertura dos testes]([./docs/index.html](https://edsonpina.github.io/CalculoCDB/))
+[Clique aqui para acessar Relatório de Cobertura dos testes]([https://edsonpina.github.io/CalculoCDB/)
 
 Backend (API .NET)
 Rodando os Testes Unitários
