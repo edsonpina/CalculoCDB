@@ -102,6 +102,7 @@ Acesse o frontend Angular no seu navegador em: http://localhost:4200
 A API estará disponível em: http://localhost:44352
 
 cURL de exemplo:
+
 curl --location 'http://localhost:44352/CalculoCDB' \
 --header 'valorInicial: 20000' \
 --header 'meses: 25' \
