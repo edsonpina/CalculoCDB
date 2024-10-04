@@ -92,6 +92,7 @@ Esse comando irá:
 Construir as imagens Docker para o backend (API .NET) e o frontend (Angular).
 
 Inicializar ambos os contêineres e expor as portas necessárias.
+
 4. Acessar a Aplicação
 
 Uma vez que os contêineres estiverem rodando:
