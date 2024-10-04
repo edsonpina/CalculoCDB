@@ -110,7 +110,7 @@ A API estará disponível em: http://localhost:44352
 
 [Clique aqui para acessar Relatório de Cobertura dos Testes](https://edsonpina.github.io/CalculoCDB/)
 
-* <u>Backend (API .NET)</u>
+* Backend (API .NET)
 
 Rodando os Testes Unitários
 
@@ -128,7 +128,7 @@ curl --location 'http://localhost:44352/CalculoCDB' \
 --header 'accept: text/plain'
 
 
-* <u>Frontend (Angular)</u>
+* Frontend (Angular)
  
 Rodando os Testes Unitários
 
