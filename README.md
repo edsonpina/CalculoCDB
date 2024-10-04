@@ -1,12 +1,20 @@
 # CalculoCDB
 
 Projeto CalculoCDB
+
 Sumário
+
+
 Visão Geral
+
 Pré-requisitos
+
 Instruções de Deploy no Docker
+
 Instruções sobre Testes
+
 Abrir no Visual Studio
+
 
 * Visão Geral
 
