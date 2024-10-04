@@ -7,7 +7,7 @@ Sumário
 
 [Visão Geral](visao-geral)
 
-[Pré-requisitos]()pre-requisitos
+[Pré-requisitos](pre-requisitos)
 
 [Instruções de Deploy no Docker](instrucoes-de-deploy-no-docker)
 
