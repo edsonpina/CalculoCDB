@@ -5,15 +5,18 @@ Projeto CalculoCDB
 Sumário
 
 
-[Visão Geral](visão-geral)
+[Visão Geral](#visão-geral)
 
-[Pré-requisitos](pré-requisitos)
+[Pré-requisitos](#pré-requisitos)
 
-[Instruções de Deploy no Docker](instrucões-de-deploy-no-docker)
+[Instruções de Deploy no Docker](#instrucões-de-deploy-no-docker)
 
-[Instruções sobre Testes](instruçõs-sobre-testes)
+[Instruções sobre Testes](#instruçõs-sobre-testes)
 
-[Abrir no Visual Studio](abrir-no-visual-studio)
+[Abrir no Visual Studio](#abrir-no-visual-studio)
+
+
+
 
 ## Visão Geral
 
@@ -23,6 +26,9 @@ Esta aplicação é composta por duas partes:
 Backend (API): Construído com .NET 8.
 Frontend (Angular): Uma aplicação Angular que se comunica com a API.
 O projeto foi configurado para rodar tanto localmente quanto em contêineres Docker para facilitar o deploy e a execução.
+
+
+
 
 ## Pré-requisitos
 
@@ -37,6 +43,9 @@ Frontend (Angular)
 Node.js: Instale a versão 18 ou superior. 
 Angular CLI: Instale globalmente com o comando:
 npm install -g @angular/cli
+
+
+
 
 ## Instruções de Deploy no Docker
 
@@ -76,6 +85,10 @@ curl --location 'http://localhost:44352/CalculoCDB' \
 --header 'valorInicial: 20000' \
 --header 'meses: 25' \
 --header 'accept: text/plain'
+
+
+
+
 ## Instruções sobre Testes
   
 Backend (API .NET)
