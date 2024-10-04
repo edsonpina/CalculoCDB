@@ -38,10 +38,12 @@ cd CalculoCDB
 
 2. Certifique-se de que o Docker está rodando
 Verifique se o Docker Desktop está rodando no seu sistema:
+
 docker --version
 
-3. Build e Deploy dos Contêineres
+4. Build e Deploy dos Contêineres
 Dentro do diretório raiz do projeto, execute o comando abaixo para construir e iniciar os contêineres:
+
 docker-compose up --build
 
 Esse comando irá:
@@ -67,23 +69,35 @@ Rodando os Testes Unitários
 Para rodar os testes unitários da API .NET, use o comando:
 
 dotnet test
+
 Isso executará todos os testes configurados no projeto de testes da API.
 
 Frontend (Angular)
 Rodando os Testes Unitários
 Para rodar os testes unitários do Angular, utilize o seguinte comando:
+
 ng test
+
 Isso abrirá um navegador e executará os testes, exibindo o resultado no terminal e na janela do navegador.
 
 Abrir no Visual Studio
 Passos para abrir o projeto no Visual Studio:
+
 Abra o Visual Studio 2022.
+
 Clique em "Abrir um projeto ou solução".
+
 Navegue até o diretório raiz do repositório clonado e selecione o arquivo CalculoCDB.sln.
+
 O Visual Studio carregará tanto o projeto da API quanto os projetos de dependência.
+
 Para iniciar o desenvolvimento:
+
 Para rodar o backend (API): Certifique-se de que o projeto CalculoCDB.API está definido como o projeto de inicialização, e clique em Iniciar Depuração.
+
 Para rodar o frontend (Angular): No terminal do Visual Studio, navegue até a pasta calculo-cdb e execute o comando ng serve.
+
 Observações Finais
+
 Siga as instruções acima para garantir que a aplicação funcione corretamente. Caso tenha dúvidas ou problemas durante a configuração, verifique os logs de erro no terminal ou entre em contato pelo email edsonpina@hotmail.com.
 
