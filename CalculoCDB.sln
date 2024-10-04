@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculoCDB.API", "CalculoCDB.API\CalculoCDB.API.csproj", "{730C9F52-0E21-4E22-A4E2-A6D87ED66961}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculoCDB.ApplicationCore", "CalculoCDB.ApplicationCore\CalculoCDB.ApplicationCore.csproj", "{649362BE-BDD6-4BA6-A400-5A9A1DBD6F24}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculoCDB.Tests", "CalculoCDB.Tests\CalculoCDB.Tests.csproj", "{1BB58617-ABD1-43F0-BB62-9B4890A10828}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "calculo-cdb", "calculo-cdb\calculo-cdb.esproj", "{0349CEFB-A34F-4185-AAC1-6FBD90A6FE37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C3364380-530A-4FDF-B424-601D2FE5C065}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{730C9F52-0E21-4E22-A4E2-A6D87ED66961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{730C9F52-0E21-4E22-A4E2-A6D87ED66961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{730C9F52-0E21-4E22-A4E2-A6D87ED66961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{730C9F52-0E21-4E22-A4E2-A6D87ED66961}.Release|Any CPU.Build.0 = Release|Any CPU
+		{649362BE-BDD6-4BA6-A400-5A9A1DBD6F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{649362BE-BDD6-4BA6-A400-5A9A1DBD6F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{649362BE-BDD6-4BA6-A400-5A9A1DBD6F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{649362BE-BDD6-4BA6-A400-5A9A1DBD6F24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BB58617-ABD1-43F0-BB62-9B4890A10828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BB58617-ABD1-43F0-BB62-9B4890A10828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BB58617-ABD1-43F0-BB62-9B4890A10828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BB58617-ABD1-43F0-BB62-9B4890A10828}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0349CEFB-A34F-4185-AAC1-6FBD90A6FE37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0349CEFB-A34F-4185-AAC1-6FBD90A6FE37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0349CEFB-A34F-4185-AAC1-6FBD90A6FE37}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0349CEFB-A34F-4185-AAC1-6FBD90A6FE37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0349CEFB-A34F-4185-AAC1-6FBD90A6FE37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0349CEFB-A34F-4185-AAC1-6FBD90A6FE37}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A17C3CC-2B3D-48E9-A816-2384AB818F4D}
+	EndGlobalSection
+EndGlobal

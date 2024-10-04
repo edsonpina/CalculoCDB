@@ -1,0 +1,43 @@
+<div style="text-align:center">
+  <h1>Consulta de Aplicação CDB</h1>
+
+  <div>
+    <table style="margin: 1 auto; border-collapse: collapse; width: 850px; ">
+      <tr>
+        <td style="padding-right: 5px; text-align: right;">
+          <label for="valorInicial">Valor Inicial:</label>
+        </td>
+        <td style="padding-left: 5px;width:10%">
+          <input type="number" [(ngModel)]="valorInicial" placeholder="Valor Inicial" style="width: 100%;">
+        </td>
+      </tr>
+      <tr>
+        <td style="padding-right: 5px; text-align: right;">
+          <label for="meses">Meses:</label>
+        </td>
+        <td style="padding-left: 5px; width: 10%">
+          <input type="number" [(ngModel)]="meses" placeholder="Meses" style="width: 100%;">
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <button (click)="consultarAplicacao()">Consultar Aplicação</button>
+
+  <div *ngIf="errorMessage" class="error">
+    <p>{{ errorMessage }}</p>
+  </div>
+
+  <div *ngIf="aplicacaoResponse.length">
+    <h3>Resultados da Aplicação</h3>
+    <div *ngFor="let response of aplicacaoResponse">
+      <p>Valor Inicial: {{ response.vi }}</p>
+      <p>Valor Final: {{ response.vf }}</p>
+      <p>Total Imposto: {{ response.totalImposto }}</p>
+      <p><b>Total Líquido: {{ response.totalLiquido }}</b></p>
+      <p>CDI: {{ response.cdi }}</p>
+      <p>Imposto: {{ response.imposto }}</p>
+      <p>Taxa Básica (TB): {{ response.tb }}</p>
+    </div>
+  </div>
+</div>
