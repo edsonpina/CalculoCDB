@@ -81,7 +81,7 @@ Verifique se o Docker Desktop está rodando no seu sistema:
 
 docker --version
 
-4. Build e Deploy dos Contêineres
+3. Build e Deploy dos Contêineres
    
 Dentro do diretório raiz do projeto, execute o comando abaixo para construir e iniciar os contêineres:
 
