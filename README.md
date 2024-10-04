@@ -7,14 +7,19 @@ Pré-requisitos
 Instruções de Deploy no Docker
 Instruções sobre Testes
 Abrir no Visual Studio
-Visão Geral
+
+* Visão Geral
+
+
 Esta aplicação é composta por duas partes:
 
 Backend (API): Construído com .NET 8.
 Frontend (Angular): Uma aplicação Angular que se comunica com a API.
 O projeto foi configurado para rodar tanto localmente quanto em contêineres Docker para facilitar o deploy e a execução.
 
-Pré-requisitos
+* Pré-requisitos
+
+
 Antes de rodar a aplicação (tanto o backend quanto o frontend), certifique-se de que você tem os seguintes pré-requisitos instalados:
 
 Backend (API .NET 8)
@@ -26,7 +31,9 @@ Node.js: Instale a versão 18 ou superior.
 Angular CLI: Instale globalmente com o comando:
 npm install -g @angular/cli
 
-Instruções de Deploy no Docker
+* Instruções de Deploy no Docker
+
+
 O deploy da aplicação pode ser feito utilizando Docker Compose para rodar o backend (.NET API) e o frontend (Angular) em contêineres Docker.
 
 1. Clone o Repositório
@@ -63,7 +70,8 @@ curl --location 'http://localhost:44352/CalculoCDB' \
 --header 'meses: 25' \
 --header 'accept: text/plain'
 
-Instruções sobre Testes
+* Instruções sobre Testes
+  
 Backend (API .NET)
 Rodando os Testes Unitários
 Para rodar os testes unitários da API .NET, use o comando:
@@ -83,7 +91,7 @@ Isso abrirá um navegador e executará os testes, exibindo o resultado no termin
 Abrir no Visual Studio
 Passos para abrir o projeto no Visual Studio:
 
-Abra o Visual Studio 2022.
+* Abra o Visual Studio 2022.
 
 Clique em "Abrir um projeto ou solução".
 
