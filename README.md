@@ -91,7 +91,8 @@ curl --location 'http://localhost:44352/CalculoCDB' \
 
 ## Instruções sobre Testes
 
-[Clique aqui para acessar Relatório de CAobertura dos testes](https://github.com/edsonpina/CalculoCDB/blob/master/CalculoCDB.Tests/coveragereport/index.html)
+[Clique aqui para acessar Relatório de CAobertura dos testes](./CalculoCDB.Tests/coveragereport/index.html)
+
 Backend (API .NET)
 Rodando os Testes Unitários
 Para rodar os testes unitários da API .NET, use o comando:
