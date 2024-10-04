@@ -5,13 +5,13 @@ Projeto CalculoCDB
 Sumário
 
 
-[Visão Geral](visao-geral)
+[Visão Geral](visão-geral)
 
-[Pré-requisitos](pre-requisitos)
+[Pré-requisitos](pré-requisitos)
 
-[Instruções de Deploy no Docker](instrucoes-de-deploy-no-docker)
+[Instruções de Deploy no Docker](instrucões-de-deploy-no-docker)
 
-[Instruções sobre Testes](instrucoes-sobre-testes)
+[Instruções sobre Testes](instruçõs-sobre-testes)
 
 [Abrir no Visual Studio](abrir-no-visual-studio)
 
@@ -24,7 +24,7 @@ Backend (API): Construído com .NET 8.
 Frontend (Angular): Uma aplicação Angular que se comunica com a API.
 O projeto foi configurado para rodar tanto localmente quanto em contêineres Docker para facilitar o deploy e a execução.
 
-##Pré-requisitos
+## Pré-requisitos
 
 
 Antes de rodar a aplicação (tanto o backend quanto o frontend), certifique-se de que você tem os seguintes pré-requisitos instalados:
