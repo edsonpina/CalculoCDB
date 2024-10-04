@@ -11,6 +11,8 @@ Sumário
 
 [Instruções de Deploy no Docker](#instruções-de-deploy-no-docker)
 
+[Relatório de Cobertura dos Testes](https://edsonpina.github.io/CalculoCDB/)
+
 [Instruções sobre Testes](#instruções-sobre-testes)
 
 [Abrir no Visual Studio](#abrir-no-visual-studio)
