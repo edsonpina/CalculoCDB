@@ -26,8 +26,11 @@ Projeto CalculoCDB
 Esta aplicação é composta por duas partes:
 
 Backend (API): Construído com .NET 8.
+
 Frontend (Angular): Uma aplicação Angular que se comunica com a API.
+
 O projeto foi configurado para rodar tanto localmente quanto em contêineres Docker para facilitar o deploy e a execução.
+
 
 [Voltar](#sumario)
 
