@@ -9,9 +9,9 @@ Sumário
 
 [Pré-requisitos](#pré-requisitos)
 
-[Instruções de Deploy no Docker](#instrucões-de-deploy-no-docker)
+[Instruções de Deploy no Docker](#instrucoes-de-deploy-no-docker)
 
-[Instruções sobre Testes](#instruçõs-sobre-testes)
+[Instruções sobre Testes](#instruções-sobre-testes)
 
 [Abrir no Visual Studio](#abrir-no-visual-studio)
 
