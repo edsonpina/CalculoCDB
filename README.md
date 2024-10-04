@@ -46,7 +46,8 @@ Frontend (Angular)
 Node.js: Instale a versão 18 ou superior. 
 Angular CLI: Instale globalmente com o comando:
 npm install -g @angular/cli
-[Voltar](#sumario)
+
+[Voltar](#sumário)
 
 
 
@@ -88,8 +89,8 @@ curl --location 'http://localhost:44352/CalculoCDB' \
 --header 'valorInicial: 20000' \
 --header 'meses: 25' \
 --header 'accept: text/plain'
-[Voltar](#sumario)
 
+[Voltar](#sumário)
 
 
 
@@ -112,8 +113,8 @@ Para rodar os testes unitários do Angular, utilize o seguinte comando:
 ng test
 
 Isso abrirá um navegador e executará os testes, exibindo o resultado no terminal e na janela do navegador.
-[Voltar](#sumario)
 
+[Voltar](#sumário)
 
 
 
@@ -137,5 +138,5 @@ Para rodar o frontend (Angular): No terminal do Visual Studio, navegue até a pa
 Observações Finais
 
 Siga as instruções acima para garantir que a aplicação funcione corretamente. Caso tenha dúvidas ou problemas durante a configuração, verifique os logs de erro no terminal ou entre em contato pelo email edsonpina@hotmail.com.
-[Voltar](#sumario)
 
+[Voltar](#sumário)
