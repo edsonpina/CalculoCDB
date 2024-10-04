@@ -33,7 +33,9 @@ O deploy da aplicação pode ser feito utilizando Docker Compose para rodar o ba
 Clone o repositório para a sua máquina local:
 
 git clone https://github.com/edsonpina/CalculoCDB.git
+
 cd CalculoCDB
+
 2. Certifique-se de que o Docker está rodando
 Verifique se o Docker Desktop está rodando no seu sistema:
 docker --version
@@ -50,6 +52,7 @@ Inicializar ambos os contêineres e expor as portas necessárias.
 Uma vez que os contêineres estiverem rodando:
 
 Acesse o frontend Angular no seu navegador em: http://localhost:4200
+
 A API estará disponível em: http://localhost:44352
 
 cURL de exemplo:
