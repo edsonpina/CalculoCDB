@@ -42,19 +42,19 @@ O projeto foi configurado para rodar tanto localmente quanto em contêineres Doc
 
 Antes de rodar a aplicação (tanto o backend quanto o frontend), certifique-se de que você tem os seguintes pré-requisitos instalados:
 
-Backend (API .NET 8)
+## Backend (API .NET 8)
 
-.NET 8 SDK.
+* .NET 8 SDK.
 
-Visual Studio 2022 (com a carga de trabalho ASP.NET e desenvolvimento web).
+* Visual Studio 2022 (com a carga de trabalho ASP.NET e desenvolvimento web).
 
-Docker: Certifique-se de que o Docker Desktop está instalado e em execução.
+* Docker: Certifique-se de que o Docker Desktop está instalado e em execução.
 
-Frontend (Angular)
+## Frontend (Angular)
 
-Node.js: Instale a versão 18 ou superior. 
+* Node.js: Instale a versão 18 ou superior. 
 
-Angular CLI: Instale globalmente com o comando:
+* Angular CLI: Instale globalmente com o comando:
 
 npm install -g @angular/cli
 
